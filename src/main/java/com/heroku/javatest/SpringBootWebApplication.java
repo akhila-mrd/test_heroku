@@ -12,9 +12,4 @@ public class SpringBootWebApplication extends SpringBootServletInitializer {
 		SpringApplication.run(SpringBootWebApplication.class, args);
 	}
 	
-	/*@Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(SpringBootWebApplication.class);
-    }*/
-	
 }

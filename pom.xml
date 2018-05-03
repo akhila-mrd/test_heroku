@@ -14,10 +14,8 @@
 	</parent>
 	<properties>
  		<main.basedir>${basedir}/../..</main.basedir>
- 		<!-- <m2eclipse.wtp.contextRoot>/someApp</m2eclipse.wtp.contextRoot> -->
  		<start-class>com.heroku.javatest.SpringBootWebApplication</start-class>
-			<failOnMissingWebXml>false</failOnMissingWebXml>
-			<server.contextPath>/someApp</server.contextPath>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
 	</properties>
 	<dependencies>
 		<!-- Compile -->
@@ -68,36 +66,4 @@
       		</plugin>
 		</plugins>
 	</build>
-	<!-- <profiles>
-		<profile>
-			<id>tomcat</id>
-			<dependencies>
-				<dependency>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-tomcat</artifactId>
-					<scope>provided</scope>
-				</dependency>
-			</dependencies>
-		</profile>
-		<profile>
-			<id>jetty</id>
-			<dependencies>
-				<dependency>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-jetty</artifactId>
-					<scope>provided</scope>
-				</dependency>
-			</dependencies>
-		</profile>
-		<profile>
-			<id>undertow</id>
-			<dependencies>
-				<dependency>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-undertow</artifactId>
-					<scope>provided</scope>
-				</dependency>
-			</dependencies>
-		</profile>
-	</profiles> -->
 </project>
