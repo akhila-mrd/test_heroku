@@ -1,1 +1,1 @@
-web: java -jar test-1.0.war
+web: java -jar target/test-1.0.war
